@@ -1,0 +1,10 @@
+Q1.Misinfo
+Q2.Info
+Q3.Mis - +ve
+Q4. Info - -ve
+Q5. Mis - -ve
+Q6. Info - neutral
+Q7. Info - +ve
+Q8.Mis - +ve
+Q9. Info - +ve
+Q10. Info -neural

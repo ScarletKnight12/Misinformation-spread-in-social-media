@@ -1,0 +1,58 @@
+Misinformation on social media = not good
+Harm to public. Causes panic, anxiety. Physical and psychological health. Damage to governance and stability of social order.Public emo are dictated by external forces,  other public emo, in tense situations.
+Misinfo spreads with a fast propagation speed(dissemination rate), has fission diffusion, wide influence and deep impact.
+Forms a large scale emotion cluster
+Public usually dont share if they know info is false
+People with common need for info gather together **unique echo chamber design**
+Content analysis --> distinguish true and false info, analyse misinfo, characteristics
+Misinfo has faster propagation speed, longer propagation path, and wider propagation range than true info.
+Spreads more quicky when related to major public crisis events. More likely stimulates fear,surprise, disgust over sadness,joy (true info)
+Bias and misunderstanding. Causes distrust in authority. On socialmedia, misinfo is dynamic, content keeps changing.
+Public rely on online comments to trust institutions
+
+Psychological state + emotional change = cause and effect
+Emo -> negative is more with misonfo. 
+Factors:user engagement, number of comments, time of discussion, etc. So more active user is, more negative emo
+More factors:gender of user, subject of content. 
+Sentiment analysis -> changes with way of presenting content!
+Evolution law of emotions
+"viral tweets"
+
+*********************************
+********network analysis********
+**********************************
+Social media network analysis help study interpersonal relationships, interactions, and communication between users.
+We model a graph where the nodes represent individuals/groups and edges represent the relationship between them.
+By analysing the network, we can understand sparse relationship between individuals and study the network centrality to figure out important and isolated participants
+Interpersonal interaction and degree of communication between the nodes can be studied further.
+Online social networks are characterized by higher participation, larger network scale, faster changes in network structure, and wider network influence
+The main focus is on the flow and dissemination of information on social media: network diffusion
+Propagation evolution pattern of information can be studied by analysis of comments, reposts, likes and forwarding of information.
+
+Content analysis- reduces noise, filters data, extract keywords based on importance (TFIDF), semantic features, converts to feature vetors, converts to distributed rep(Word2vec) and similarity between words calculated, analyse misinformation and true information by dividing into k categories(K-means)
+
+Sentiment analysis- provide behavioural logic behind social networks.Bidirectional LSTM model, recurrent neural network. Assign emotional tags to the topics in misinfo and true info.
+
+Diffusion of true info and misinfo can be analysed by building a graph, this is sparse
+Though misinfo < true info, forwarding rate of misinfo > trueinfo
+Diffusion characteristics can be measured by number of retweets(diffusion index of posts), comments(user index ofposts) and favourites(num of times posts are collected = user acceptance and recognition degree).
+Diffusion range, diffusion participation, user acceptance all can help us analyse our network further.
+Skewness and kurtosis gives asymmetry and steepness of variables used in the categories.
+
+Difference in diffusion between true info and misinfo can be calculated by performing a T-test
+We see that people collect true info more than misinfo. But misinfo spreads more.
+Also a model called GLM can be used to examined difference between different categories into true and misinfo. 
+Multivariate analysis of variance can be done. It depends on number of independent variables.
+Log transform for normal dist hypothesis. Combine marginal estimates and significance tests
+
+Difference in emotions between  true and misinfo can be calculated by the Chi square test
+We can observe the relationship between misinformation and true information in terms of the content type and sentiment type.
+A significant difference in the effect of subject category on emotion between true information and misinformation
+
+To analyze the correlation between information veracity and the corresponding network diffusion characteristics, we could use the pearson point biserial corelation
+Direction represents dominance in network
+Positive correlation = misinfo more likely to be retweeted, favourited, commented on
+Negative correlation = true info is most likely to be retweeted, favourited, commented on
+
+Stronger correlation means closer relationship between info veracity and network diffusion
+Emotions in true and misinformation were thus found.
